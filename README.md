@@ -31,4 +31,4 @@ yarn start
 
 ### Docker
 
-Alternatively, you can run it in Docker using the image built from the provided Dockerfile
+Alternatively, you can run it in Docker using the [public image](https://hub.docker.com/repository/docker/archerdao/miner-proxy) built from the provided Dockerfile
