@@ -1,0 +1,30 @@
+{
+  "name": "@archer-relay/miner",
+  "version": "2.0.0",
+  "description": "A proxy for miners to forward bundles to nodes",
+  "scripts": {
+    "start": "node main.js",
+    "lint": "eslint ."
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "homepage": "https://archerdao.io",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-standard": "^16.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "prettier": "^2.1.2"
+  }
+}
